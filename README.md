@@ -4,6 +4,7 @@ Testing connectivity to API endpoint
 Some application has great integration implementations to connect to the remote API and to execute some actions. However there are different conditions when such connection simply does not work for one or another reason (for example expired SSL certifiicate, etc.) and application implementation do not provide good diagnostic for such an error. 
 Here is some code to do connection with some diagnostic output.
 ## Perl
+Simulating connection from RTIR to MISP, following RTIR MISP extension implementation
 ```perl
 #!/usr/bin/perl
 use strict;
